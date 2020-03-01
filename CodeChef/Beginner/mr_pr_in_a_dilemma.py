@@ -1,8 +1,13 @@
 i = int(input())
 while i != 0:
-    a, b, c, d = (int(i) for i in input().split())
-    if ((a % b) == d or (a % b) == c and (a > b)) or ((b % a) == d or (b % a) == c and (b > a)):
+    a, b, c, d = map(int,input().split( ))
+    if (a == b):
         print("YES")
-    else:
+    elif (c != d):
+        if (abs(a - b) % abs(c - d) == 0):
+            print("YES")
+        else:
+            print("NO")
+    else: 
         print("NO")
     i -= 1
