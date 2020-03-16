@@ -1,3 +1,5 @@
+https://www.codechef.com/problems/WALKFAST
+
 All submissions for this problem are available.Chefland has all the cities on a straight line. There are N cities in Chefland numbered 1 to N. City i is located at coordinate xi on the x-axis. Guru wants to travel from city A to city B. He starts at time t=0. He has following choices to travel.
 
 He can walk 1 metre in P secs.
@@ -8,5 +10,6 @@ Input:
 First line will contain T, number of testcases. Then the testcases follow.
 First line of each testcase contains eight space separated integers N,A,B,C,D,P,Q,Y.
 Second line of each testcase contains N space-separated integers with the i-th integer representing xi.
+
 Output:
 For each testcase, output in a single line containing the minimum travel time.
